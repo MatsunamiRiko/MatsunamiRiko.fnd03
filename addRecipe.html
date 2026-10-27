@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyRecipe</title>
+
+    <link rel="stylesheet" href="addRecipeStyle.css" />
+  </head>
+  <body>
+    <h1>My&nbsp;Recipe</h1>
+      <div class="container">
+       <div class="dishname">
+       <label for="dishname">料理名</label> 
+       <input
+        type="text"
+        id="dishname"
+        name="dishname"
+        >
+       </div>
+
+        <div class="time">
+       <label for="time">調理時間</label> 
+        <input
+        type="text"
+        id="time"
+        name="time">
+       </div>
+      </div>
+
+
+      <div class="ingredient">
+      <label for="ingredient">材料</label> 
+      <textarea
+        id="ingredient"
+        name="ingredient"
+        rows="5"
+        cols="40"
+      >
+      </textarea>
+      </div>
+
+      <div class="recipe">
+      <label for="recipe">作り方</label> 
+      <textarea
+        id="recipe"
+        name="recipe"
+        rows="5"
+        cols="40">
+      </textarea>
+      </div>
+
+    <div class="register">
+      <button type="button" id = "btn" >登録</button>
+       
+    </div>
+
+ <script src="addRecipe.js"></script>
+  </body> 
+</html>
