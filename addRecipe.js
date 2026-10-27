@@ -30,7 +30,7 @@ function registFunc() {
   localStorage.setItem("recipeList", JSON.stringify(recipeList));
 
   //ホーム画面に戻る
-  location.href = "home.html";
+  location.href = "index.html";
 }
 
 //登録ボタンを取得
